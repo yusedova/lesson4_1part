@@ -1,0 +1,63 @@
+h1{
+    width: 100%;
+    text-align: center;
+}
+.tabs-block-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+#tabs{
+    display: flex;
+}
+.tab-btn{
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.tab-btn.active {
+    background-color: blue;
+    color: #fff;
+    /*opacity: 0.9;*/
+}
+
+data-btn.3 {
+
+}
+
+#contents{
+    max-width: 300px;
+    width: 100%;
+    height: 150px;
+    border: 1px solid black;
+}
+.content{
+    display: none;
+}
+.content.active{
+    display: block;
+}
+.inside{
+    width: 30px;
+    height: 20px;
+    font-size: 15px;
+    border: 1.5px solid black;
+    box-sizing: border-box;
+    position: relative;
+    top: 10px;
+    bottom: 0px;
+    left: 14px;
+    opacity: 1;
+    margin: 0px;
+    padding: 0;
+}
+.inside.active{
+    
+}
